@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353434;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+button{
+    width: 300px;
+    background-color: rgb(0, 188, 188);
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+button:hover{
+    transition: 0.7s;
+    background-color: white;
+    color: black;
+}
+.container{
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #606060;
+    width: 400px;
+    height: 300px;
+}
+#textChuck{
+    margin-bottom: -60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
